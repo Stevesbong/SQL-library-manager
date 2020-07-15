@@ -1,6 +1,6 @@
-<!-- # [Portfolio Website](https://stevesbong.github.io/) -->
+# [Library Manager](https://sql-library-manage.herokuapp.com/)
 
-Website preview: not available yet
+Website preview: is not available yet
 
 
 <!-- 
@@ -9,4 +9,8 @@ Website preview: not available yet
 
 ### Description
 
-<!-- Created a Portfolio Website with HTML and CSS for resume. -->
+SQL Database project that uses basic CRUD operations to interact with database.
+
+Basically user can create, edit, delete and view list of books.
+
+__*Skills Used*__: SQLite, Express.js, Node.js, Pug, Sequelize, and CSS.
