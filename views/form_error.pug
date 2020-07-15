@@ -1,0 +1,6 @@
+if validationErrors
+    h2.error Oooops!
+    ul.error
+        each error in validationErrors
+            li
+                =error.message
