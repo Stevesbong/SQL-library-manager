@@ -1,5 +1,15 @@
 extends layout.pug
 
 block content
-    h1 Server Error
-    p Sorry! There was an unexprected error on the server.
+    .container
+        if err
+            h1 Error status: #{err.status}
+            br
+            p= err.message
+            pre= err.stack
+        else
+            h1 Book does not exist.
+        br
+        p Oooops! It looks like there is no book.
+        p
+            a(class="button" href="/books") Home

@@ -2,7 +2,7 @@ extends layout.pug
 
 block content
     h1 Update Book
-    form(action="/books/" + oneBook.id + "/edit", method="post")
+    form(action="/books/" + oneBook.id, method="post")
         include form_error
         p
             label(for="title") Title
